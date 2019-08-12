@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DCC17A23010C71005A3FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC17923010C71005A3FCA /* AppDelegate.swift */; };
+		42DCC17C23010C71005A3FCA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC17B23010C71005A3FCA /* MainViewController.swift */; };
+		42DCC17F23010C71005A3FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC17D23010C71005A3FCA /* Main.storyboard */; };
+		42DCC18123010C73005A3FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC18023010C73005A3FCA /* Assets.xcassets */; };
+		42DCC18423010C73005A3FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DCC18223010C73005A3FCA /* LaunchScreen.storyboard */; };
+		42DCC18E23010EE8005A3FCA /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC18D23010EE8005A3FCA /* DayCell.swift */; };
+		42DCC19023010EF2005A3FCA /* MonthHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC18F23010EF2005A3FCA /* MonthHeaderCell.swift */; };
+		42DCC19323010F14005A3FCA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC19223010F14005A3FCA /* DetailsViewController.swift */; };
+		42DCC19E23010FC4005A3FCA /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCC19C23010FC4005A3FCA /* RxDataSources.framework */; };
+		42DCC19F23010FC4005A3FCA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCC19D23010FC4005A3FCA /* RxSwift.framework */; };
+		42DCC1A223011028005A3FCA /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC1A123011028005A3FCA /* Calendar.swift */; };
+		42DCC1A423011234005A3FCA /* MainCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC1A323011234005A3FCA /* MainCollectionViewDataSource.swift */; };
+		42DCC1A623011478005A3FCA /* UICollectionViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC1A523011478005A3FCA /* UICollectionViewCellExtensions.swift */; };
+		42DCC1A923011D86005A3FCA /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCC1A823011D85005A3FCA /* Differentiator.framework */; };
+		42DCC1AB23011D9E005A3FCA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCC1AA23011D9E005A3FCA /* RxCocoa.framework */; };
+		42DCC1AD23011DD9005A3FCA /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCC1AC23011DD9005A3FCA /* RxRelay.framework */; };
+		42DCC1B0230127F2005A3FCA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC1AF230127F2005A3FCA /* API.swift */; };
+		42DCC1B223012864005A3FCA /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC1B123012864005A3FCA /* Flickr.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42DCC19A23010F92005A3FCA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42DCC17623010C71005A3FCA /* Flicker Best18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flicker Best18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DCC17923010C71005A3FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42DCC17B23010C71005A3FCA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		42DCC17E23010C71005A3FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42DCC18023010C73005A3FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DCC18323010C73005A3FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42DCC18523010C73005A3FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DCC18D23010EE8005A3FCA /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		42DCC18F23010EF2005A3FCA /* MonthHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderCell.swift; sourceTree = "<group>"; };
+		42DCC19223010F14005A3FCA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		42DCC19C23010FC4005A3FCA /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		42DCC19D23010FC4005A3FCA /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		42DCC1A123011028005A3FCA /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		42DCC1A323011234005A3FCA /* MainCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		42DCC1A523011478005A3FCA /* UICollectionViewCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtensions.swift; sourceTree = "<group>"; };
+		42DCC1A823011D85005A3FCA /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		42DCC1AA23011D9E005A3FCA /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		42DCC1AC23011DD9005A3FCA /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		42DCC1AF230127F2005A3FCA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		42DCC1B123012864005A3FCA /* Flickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DCC17323010C71005A3FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCC1AB23011D9E005A3FCA /* RxCocoa.framework in Frameworks */,
+				42DCC1A923011D86005A3FCA /* Differentiator.framework in Frameworks */,
+				42DCC19F23010FC4005A3FCA /* RxSwift.framework in Frameworks */,
+				42DCC19E23010FC4005A3FCA /* RxDataSources.framework in Frameworks */,
+				42DCC1AD23011DD9005A3FCA /* RxRelay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DCC16D23010C71005A3FCA = {
+			isa = PBXGroup;
+			children = (
+				42DCC17823010C71005A3FCA /* Flicker Best18 */,
+				42DCC19B23010FB9005A3FCA /* Frameworks */,
+				42DCC17723010C71005A3FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42DCC17723010C71005A3FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC17623010C71005A3FCA /* Flicker Best18.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DCC17823010C71005A3FCA /* Flicker Best18 */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC17923010C71005A3FCA /* AppDelegate.swift */,
+				42DCC18023010C73005A3FCA /* Assets.xcassets */,
+				42DCC1AE230127E4005A3FCA /* Flickr API */,
+				42DCC18523010C73005A3FCA /* Info.plist */,
+				42DCC18223010C73005A3FCA /* LaunchScreen.storyboard */,
+				42DCC1A023011017005A3FCA /* Model */,
+				42DCC18B23010EB8005A3FCA /* UI */,
+				42DCC1A523011478005A3FCA /* UICollectionViewCellExtensions.swift */,
+			);
+			path = "Flicker Best18";
+			sourceTree = "<group>";
+		};
+		42DCC18B23010EB8005A3FCA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC19123010EFE005A3FCA /* Details */,
+				42DCC18C23010EBD005A3FCA /* Main */,
+				42DCC17D23010C71005A3FCA /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		42DCC18C23010EBD005A3FCA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC18D23010EE8005A3FCA /* DayCell.swift */,
+				42DCC17B23010C71005A3FCA /* MainViewController.swift */,
+				42DCC18F23010EF2005A3FCA /* MonthHeaderCell.swift */,
+				42DCC1A323011234005A3FCA /* MainCollectionViewDataSource.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		42DCC19123010EFE005A3FCA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC19223010F14005A3FCA /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		42DCC19B23010FB9005A3FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC1AC23011DD9005A3FCA /* RxRelay.framework */,
+				42DCC1AA23011D9E005A3FCA /* RxCocoa.framework */,
+				42DCC1A823011D85005A3FCA /* Differentiator.framework */,
+				42DCC19C23010FC4005A3FCA /* RxDataSources.framework */,
+				42DCC19D23010FC4005A3FCA /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42DCC1A023011017005A3FCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC1A123011028005A3FCA /* Calendar.swift */,
+				42DCC1B123012864005A3FCA /* Flickr.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42DCC1AE230127E4005A3FCA /* Flickr API */ = {
+			isa = PBXGroup;
+			children = (
+				42DCC1AF230127F2005A3FCA /* API.swift */,
+			);
+			path = "Flickr API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42DCC17523010C71005A3FCA /* Flicker Best18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DCC18823010C73005A3FCA /* Build configuration list for PBXNativeTarget "Flicker Best18" */;
+			buildPhases = (
+				42DCC17223010C71005A3FCA /* Sources */,
+				42DCC17323010C71005A3FCA /* Frameworks */,
+				42DCC17423010C71005A3FCA /* Resources */,
+				42DCC19A23010F92005A3FCA /* Embed Frameworks */,
+				42DCC1A723011D08005A3FCA /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flicker Best18";
+			productName = "Flicker Best18";
+			productReference = 42DCC17623010C71005A3FCA /* Flicker Best18.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42DCC16E23010C71005A3FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Farshad;
+				TargetAttributes = {
+					42DCC17523010C71005A3FCA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 42DCC17123010C71005A3FCA /* Build configuration list for PBXProject "Flicker Best18" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42DCC16D23010C71005A3FCA;
+			productRefGroup = 42DCC17723010C71005A3FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DCC17523010C71005A3FCA /* Flicker Best18 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42DCC17423010C71005A3FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCC18423010C73005A3FCA /* LaunchScreen.storyboard in Resources */,
+				42DCC18123010C73005A3FCA /* Assets.xcassets in Resources */,
+				42DCC17F23010C71005A3FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42DCC1A723011D08005A3FCA /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42DCC17223010C71005A3FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCC1A423011234005A3FCA /* MainCollectionViewDataSource.swift in Sources */,
+				42DCC17C23010C71005A3FCA /* MainViewController.swift in Sources */,
+				42DCC1A223011028005A3FCA /* Calendar.swift in Sources */,
+				42DCC18E23010EE8005A3FCA /* DayCell.swift in Sources */,
+				42DCC1A623011478005A3FCA /* UICollectionViewCellExtensions.swift in Sources */,
+				42DCC17A23010C71005A3FCA /* AppDelegate.swift in Sources */,
+				42DCC1B223012864005A3FCA /* Flickr.swift in Sources */,
+				42DCC19023010EF2005A3FCA /* MonthHeaderCell.swift in Sources */,
+				42DCC1B0230127F2005A3FCA /* API.swift in Sources */,
+				42DCC19323010F14005A3FCA /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42DCC17D23010C71005A3FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DCC17E23010C71005A3FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42DCC18223010C73005A3FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42DCC18323010C73005A3FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42DCC18623010C73005A3FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42DCC18723010C73005A3FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42DCC18923010C73005A3FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JW87842DY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Flicker Best18/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.farshad.best18.Flicker-Best18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42DCC18A23010C73005A3FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JW87842DY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Flicker Best18/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.farshad.best18.Flicker-Best18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DCC17123010C71005A3FCA /* Build configuration list for PBXProject "Flicker Best18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DCC18623010C73005A3FCA /* Debug */,
+				42DCC18723010C73005A3FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DCC18823010C73005A3FCA /* Build configuration list for PBXNativeTarget "Flicker Best18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DCC18923010C73005A3FCA /* Debug */,
+				42DCC18A23010C73005A3FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42DCC16E23010C71005A3FCA /* Project object */;
+}
